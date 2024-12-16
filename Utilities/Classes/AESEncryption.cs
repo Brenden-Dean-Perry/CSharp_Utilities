@@ -55,7 +55,7 @@ namespace Utilities.Classes
 
         static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key, byte[] IV)
         {
-            string plaintext = null;
+            string plaintext = String.Empty;
             using (Aes aesAlg = Aes.Create())
             {
                 aesAlg.Key = Key;
