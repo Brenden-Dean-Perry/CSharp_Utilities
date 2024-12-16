@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.Foundation.Metadata;
 using System.Security.Cryptography;
 using System.ComponentModel;
 
